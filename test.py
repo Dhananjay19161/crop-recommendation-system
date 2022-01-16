@@ -1,0 +1,10 @@
+import pickle
+import joblib;
+import numpy as np;
+import sklearn;
+loaded=joblib.load("model.pkl")
+test=np.array([90,22.87400243,1755.781061,0.478916836,99.43461062,250.0418784,42,43,20.87974371,82.00274423,6.502985292,202.9355362]).reshape(1,12)
+print(test.shape)
+# test_x=[90,22.87400243,1755.781061,0.478916836,99.43461062,250.0418784,42,43,20.87974371,82.00274423,6.502985292,202.9355362].shape(1,12)
+x=loaded.predict(test)[0]
+print(x)

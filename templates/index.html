@@ -1,0 +1,152 @@
+<html>
+<body>
+  <head>
+    <style>
+      h1 {text-align: center;}
+
+      /* input[type=submit]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+      /* } */
+  div {
+    background-image: url('https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fwallpapercrafter.com%2F225134-___field-grass-crop-and-farming-hd.html&psig=AOvVaw3rLrAVhmrIOcEVmXkJeVLA&ust=1642416527751000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLCNusGMtvUCFQAAAAAdAAAAABAR');
+} 
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 15%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+body {
+  margin: 0;
+}
+
+
+.container {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* .banner {
+  height: 100px;
+  background: url(https://dreaminginyellow.com/diy-custom-design-yellow-strips/) bottom center no-repeat
+} */
+.box{
+  /* font-size: 11vh; 
+  padding: 0 1em; 
+  font-family: Quicksand; */
+  text-align: center;
+  
+	
+}
+
+
+.header {
+  padding: 0px;
+  text-align:justify;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+
+    </style>
+  </head>
+    
+    <div class="header">
+      <h1>Crop Recommendation System</h1>
+    </div>
+<div class ="box">
+  <form action="/result" method="POST">
+    <div class="text1">
+    <label for="N">N value</label>
+    <input type="number" step="any" id="N" name="N" placeholder="Nitrogen content">
+  </div>
+    <br>
+  <div class="text2">
+    <label for="Fe">Fe value</label>
+    <input type="number" step="any" id="Fe" name="Fe" placeholder="Iron content">
+  </div>
+    <br>
+    <div class="text3">
+    <label for="Mn">Mn Value</label>
+    <input type="number" step="any" id="Mn" name="Mn" placeholder="Magnesium content">
+    </div>
+    <br>
+    <div class="text4">
+    <label for="S">S Value</label>
+    <input type="number" step="any" id="S" name="S" placeholder="Sulphur content">
+    </div>
+    <br>
+    <div class="text5">
+    <label for="Mg">Mg Value</label>
+    <input type="number" step="any" id="Mg" name="Mg" placeholder="Magnisium content">
+    </div>
+    <br>
+    <div class="text6">
+    <label for="C">C Value</label>
+    <input type="number" step="any" id="C" name="C" placeholder="Calcium content">
+    </div>
+    <br>
+    <div class="text7">
+    <label for="P">P value</label>
+    <input type="number" step="any" id="P" name="P" placeholder="Phosperous content">
+    </div>
+    <br>
+    <div class="text8">
+    <label for="K">K value</label>
+    <input type="number" step="any" id="K" name="K" placeholder="Potassium content">
+    </div>
+    <br>
+    <div class="text9">
+    <label for="temperature">temperature value</label>
+    <input type="number" step="any" id="temperature" name="temperature" placeholder="Soil Temperature">
+    </div>
+    <br>
+    <div class="text10">
+    <label for="humidity">humidity value</label>
+    <input type="number" step="any" id="humidity" name="humidity" placeholder="Humidity content">
+    </div>
+    <br>
+    <div class="text11">
+    <label for="ph">ph value</label>
+    <input type="number" step="any" id="ph" name="ph" placeholder="ph content">
+    <div class="text12">
+    <br>
+    <label for="rainfall">rainfall value</label>
+    <input type="number" step="any" id="rainfall" name="rainfall" placeholder="rainfall content">
+    </div>
+    <br>
+    <p> </p>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
